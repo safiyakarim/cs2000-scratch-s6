@@ -1,0 +1,7 @@
+use context dcic2024overlay(circle(30, "solid", "blue"), rectangle(120,60, "solid", "yellow"))
+overlay(circle(30, "solid", "blue"), rectangle(120,60, "solid", "yellow"))
+above(rectangle(30,20, "solid", "green"), rectangle(60,40, "solid", "purple"))
+rotate(90,above(rectangle(30,20, "solid", "green"), rectangle(60,40, "solid", "purple")))
+rectangle(100,20, "solid", "red")
+rotate(90, rectangle(100,20, "solid", "red"))
+overlay-align("center", "middle", text("STOP", 25, "white"), regular-polygon(50,6, "solid", "red"))
