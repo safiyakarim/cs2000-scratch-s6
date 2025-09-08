@@ -1,0 +1,21 @@
+use context dcic2024
+triang-lenth=35
+triang-color="orange"
+orange-triangle=triangle(triang-lenth, "solid", triang-color)
+square-length=20
+square-color="blue"
+blue-square=rectangle(square-length, square-length, "solid", square-color)
+circ-radius=20
+yellow-circ=circle(circ-radius, "solid", "yellow")
+black-rect=rectangle(80,50, "solid", "black")
+yb-image=above(yellow-circ, black-rect)
+double-circles=beside(yellow-circ, yellow-circ)
+double-circ-image=above(double-circles, black-rect)
+rect-color="dark green"
+rect-length=160
+rect-width=120
+rectangle-shape=rectangle(rect-length,rect-width, "solid", rect-color)
+circle-color="red"
+circle-radius=60
+circle-shape=circle(circle-radius, "solid", circle-color)
+bangladesh-flag=overlay-align("center", "middle", circle-shape, rectangle-shape)
