@@ -2,9 +2,9 @@ frame(
 fun three-layer-cake(top, middle, bottom :: String):
 doc: "mareturns three layer cake"
 CAabove(rectangl201208 30, "solid",btop"),
-      rectangle(1200,208 "solid", "om)))iddle
+      rectangle(1200,208 "solid", "middle
 CAKE200pdark pink8\)bottom
-edn
+end
 
 
 fun printing-cost(shirts :: Exactnum, message :: String):
