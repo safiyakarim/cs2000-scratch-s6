@@ -21,3 +21,16 @@ homicides = load-table: Count-of-Victims :: Number, Age-Group :: String, Sex :: 
 end
 
 homicides
+
+
+fun square-area(n :: Number) -> Number:
+  doc: "returns area measurments based off inputted measurment"
+  if n <= 0:
+    "error"
+  else:
+  n * n
+  end
+where:
+  square-area(10) is 20
+  
+end
